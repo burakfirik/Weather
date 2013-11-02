@@ -61,6 +61,7 @@
 		AEC632661824AC5900B0513C /* weatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherTests.m; sourceTree = "<group>"; };
 		AECDD4361824B42500DF6B1F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AECDD4381824B44000DF6B1F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AECDD43A1824B59B00DF6B1F /* WeatherAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = WeatherAPIKey.h; path = ../WeatherAPIKey.h; sourceTree = "<group>"; };
 		AECDD74E1824B3CC003A4E27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AECDD7501824B3F1003A4E27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EB3C92092C8E4483B6593A48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +149,7 @@
 		AEC632421824AC5900B0513C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AECDD43A1824B59B00DF6B1F /* WeatherAPIKey.h */,
 				AEC632431824AC5900B0513C /* weather-Info.plist */,
 				AEC632441824AC5900B0513C /* InfoPlist.strings */,
 				AEC632471824AC5900B0513C /* main.m */,
