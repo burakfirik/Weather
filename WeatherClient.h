@@ -13,4 +13,6 @@
 
 +(instancetype)sharedClient;
 
+- (void)getCurrentWeatherObservationForLocation:(CLLocation *)location completion:(void(^)(Observation *observation, NSError *error))completion;
+
 @end
