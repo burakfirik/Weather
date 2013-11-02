@@ -27,6 +27,7 @@
 		AECDD4411824B71400DF6B1F /* WeatherClient.m in Resources */ = {isa = PBXBuildFile; fileRef = AECDD43F1824B71400DF6B1F /* WeatherClient.m */; };
 		AECDD4441824C13F00DF6B1F /* Observation.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDD4431824C13F00DF6B1F /* Observation.m */; };
 		AECDD4471824C76300DF6B1F /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDD4461824C76300DF6B1F /* LocationManager.m */; };
+		AECDD44D1824DF4900DF6B1F /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDD44C1824DF4900DF6B1F /* GradientView.m */; };
 		AECDD74F1824B3CC003A4E27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDD74E1824B3CC003A4E27 /* QuartzCore.framework */; };
 		AECDD7511824B3F1003A4E27 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDD7501824B3F1003A4E27 /* CoreLocation.framework */; };
 		FCA9D53C118344338B3D5AEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3C92092C8E4483B6593A48 /* libPods.a */; };
@@ -72,6 +73,8 @@
 		AECDD4431824C13F00DF6B1F /* Observation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observation.m; sourceTree = "<group>"; };
 		AECDD4451824C76300DF6B1F /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		AECDD4461824C76300DF6B1F /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		AECDD44B1824DF4900DF6B1F /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		AECDD44C1824DF4900DF6B1F /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		AECDD74E1824B3CC003A4E27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AECDD7501824B3F1003A4E27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EB3C92092C8E4483B6593A48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +173,8 @@
 				AEC632441824AC5900B0513C /* InfoPlist.strings */,
 				AEC632471824AC5900B0513C /* main.m */,
 				AEC632491824AC5900B0513C /* weather-Prefix.pch */,
+				AECDD44B1824DF4900DF6B1F /* GradientView.h */,
+				AECDD44C1824DF4900DF6B1F /* GradientView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 				AECDD4471824C76300DF6B1F /* LocationManager.m in Sources */,
 				AEC632521824AC5900B0513C /* ViewController.m in Sources */,
 				AEC6324C1824AC5900B0513C /* AppDelegate.m in Sources */,
+				AECDD44D1824DF4900DF6B1F /* GradientView.m in Sources */,
 				AEC632481824AC5900B0513C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
