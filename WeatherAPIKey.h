@@ -6,9 +6,10 @@
 //
 //
 
-#ifndef _WeatherAPIKey_h
-#define _WeatherAPIKey_h
+#ifndef Weather_WeatherAPIKey_h
+#define Weather_WeatherAPIKey_h
 
-static NSString *const kWeatherUndergroundAPIKey=@"49752d45514b7dd6"
+//Sign up at http://www.wunderground.com/weather/api to get a free developer key
+static NSString * const kWeatherUndergroundAPIKey = @"49752d45514b7dd6";
 
 #endif

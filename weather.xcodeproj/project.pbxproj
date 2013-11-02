@@ -23,11 +23,10 @@
 		AEC632671824AC5900B0513C /* weatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC632661824AC5900B0513C /* weatherTests.m */; };
 		AECDD4371824B42500DF6B1F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDD4361824B42500DF6B1F /* MobileCoreServices.framework */; };
 		AECDD4391824B44000DF6B1F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDD4381824B44000DF6B1F /* SystemConfiguration.framework */; };
-		AECDD4401824B71400DF6B1F /* WeatherClient.h in Resources */ = {isa = PBXBuildFile; fileRef = AECDD43E1824B71400DF6B1F /* WeatherClient.h */; };
-		AECDD4411824B71400DF6B1F /* WeatherClient.m in Resources */ = {isa = PBXBuildFile; fileRef = AECDD43F1824B71400DF6B1F /* WeatherClient.m */; };
 		AECDD4441824C13F00DF6B1F /* Observation.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDD4431824C13F00DF6B1F /* Observation.m */; };
 		AECDD4471824C76300DF6B1F /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDD4461824C76300DF6B1F /* LocationManager.m */; };
 		AECDD44D1824DF4900DF6B1F /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDD44C1824DF4900DF6B1F /* GradientView.m */; };
+		AECDD4501824EDBC00DF6B1F /* WeatherClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDD44F1824EDBC00DF6B1F /* WeatherClient.m */; };
 		AECDD74F1824B3CC003A4E27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDD74E1824B3CC003A4E27 /* QuartzCore.framework */; };
 		AECDD7511824B3F1003A4E27 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDD7501824B3F1003A4E27 /* CoreLocation.framework */; };
 		FCA9D53C118344338B3D5AEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3C92092C8E4483B6593A48 /* libPods.a */; };
@@ -66,15 +65,15 @@
 		AEC632661824AC5900B0513C /* weatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherTests.m; sourceTree = "<group>"; };
 		AECDD4361824B42500DF6B1F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AECDD4381824B44000DF6B1F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		AECDD43A1824B59B00DF6B1F /* WeatherAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = WeatherAPIKey.h; path = ../WeatherAPIKey.h; sourceTree = "<group>"; };
-		AECDD43E1824B71400DF6B1F /* WeatherClient.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = WeatherClient.h; path = ../WeatherClient.h; sourceTree = "<group>"; };
-		AECDD43F1824B71400DF6B1F /* WeatherClient.m */ = {isa = PBXFileReference; lastKnownFileType = file; name = WeatherClient.m; path = ../WeatherClient.m; sourceTree = "<group>"; };
+		AECDD43A1824B59B00DF6B1F /* WeatherAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WeatherAPIKey.h; path = ../WeatherAPIKey.h; sourceTree = "<group>"; };
 		AECDD4421824C13F00DF6B1F /* Observation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observation.h; sourceTree = "<group>"; };
 		AECDD4431824C13F00DF6B1F /* Observation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observation.m; sourceTree = "<group>"; };
 		AECDD4451824C76300DF6B1F /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		AECDD4461824C76300DF6B1F /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		AECDD44B1824DF4900DF6B1F /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		AECDD44C1824DF4900DF6B1F /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		AECDD44E1824EDBC00DF6B1F /* WeatherClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherClient.h; sourceTree = "<group>"; };
+		AECDD44F1824EDBC00DF6B1F /* WeatherClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherClient.m; sourceTree = "<group>"; };
 		AECDD74E1824B3CC003A4E27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AECDD7501824B3F1003A4E27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EB3C92092C8E4483B6593A48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,8 +161,6 @@
 		AEC632421824AC5900B0513C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AECDD43E1824B71400DF6B1F /* WeatherClient.h */,
-				AECDD43F1824B71400DF6B1F /* WeatherClient.m */,
 				AECDD4451824C76300DF6B1F /* LocationManager.h */,
 				AECDD4461824C76300DF6B1F /* LocationManager.m */,
 				AECDD4421824C13F00DF6B1F /* Observation.h */,
@@ -175,6 +172,8 @@
 				AEC632491824AC5900B0513C /* weather-Prefix.pch */,
 				AECDD44B1824DF4900DF6B1F /* GradientView.h */,
 				AECDD44C1824DF4900DF6B1F /* GradientView.m */,
+				AECDD44E1824EDBC00DF6B1F /* WeatherClient.h */,
+				AECDD44F1824EDBC00DF6B1F /* WeatherClient.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -275,8 +274,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECDD4401824B71400DF6B1F /* WeatherClient.h in Resources */,
-				AECDD4411824B71400DF6B1F /* WeatherClient.m in Resources */,
 				AEC632541824AC5900B0513C /* Images.xcassets in Resources */,
 				AEC632461824AC5900B0513C /* InfoPlist.strings in Resources */,
 				AEC6324F1824AC5900B0513C /* Main.storyboard in Resources */,
@@ -337,6 +334,7 @@
 				AEC6324C1824AC5900B0513C /* AppDelegate.m in Sources */,
 				AECDD44D1824DF4900DF6B1F /* GradientView.m in Sources */,
 				AEC632481824AC5900B0513C /* main.m in Sources */,
+				AECDD4501824EDBC00DF6B1F /* WeatherClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

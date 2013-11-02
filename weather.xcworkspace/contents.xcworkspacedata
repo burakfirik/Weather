@@ -2,15 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:WeatherClient.h">
-   </FileRef>
-   <FileRef
-      location = "group:WeatherClient.m">
-   </FileRef>
-   <FileRef
-      location = "group:WeatherAPIKey.h">
-   </FileRef>
-   <FileRef
       location = "group:weather.xcodeproj">
    </FileRef>
    <FileRef
