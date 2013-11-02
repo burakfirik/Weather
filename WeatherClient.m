@@ -20,7 +20,7 @@ static NSString *const kWeatherUndergroundAPIBaseURLString=@"http://api.wundergr
     static WeatherClient *sharedClient=nil;
     static dispatch_once_t onceToken;
     
-    dispatch_once(&amp;onceToken, ^{
+    dispatch_once(&onceToken, ^{
         NSString *baseURLString = [kWeatherUndergroundAPIBaseURLString stringByAppendingString:kWeatherUndergroundAPIKey];
         sharedClient = [[self alloc] initWithBaseURL:[NSURL URLWithString:baseURLString]];
     });
